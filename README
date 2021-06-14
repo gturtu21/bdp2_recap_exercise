@@ -1,3 +1,8 @@
-USE THIS COMMAND TO RUN THE IMAGE:
+USE THIS COMMAND TO RUN THE IMAGE (without volumes)
 
 docker run -p 80:8888 gturtu21/bdp2_midterm
+
+
+USE THIS to link /home/jovyan/work to the local work directory:
+
+docker run -v /home/ubuntu/review/bdp2_recap_exercise/work/:/home/jovyan/work -p 80:8888 gturtu21/bdp2_midterm
