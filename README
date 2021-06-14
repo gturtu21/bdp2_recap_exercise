@@ -1,0 +1,3 @@
+USE THIS COMMAND TO RUN THE IMAGE:
+
+docker run -p 80:8888 gturtu21/bdp2_midterm
