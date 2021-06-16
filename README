@@ -1,8 +1,14 @@
-USE THIS COMMAND TO RUN THE IMAGE (without volumes)
+-USE THIS COMMAND TO RUN THE IMAGE (without volumes)
 
-docker run -p 80:8888 gturtu21/bdp2_midterm
+	docker run -p 80:8888 gturtu21/bdp2_midterm
 
 
-USE THIS to link /home/jovyan/work to the local work directory:
+-USE THIS COMMAND TO RUN THE IMAGE AND LINK /home/jovyan/work TO THE LOCAL WORK DIRECTORY:
 
-docker run -v /home/ubuntu/review/bdp2_recap_exercise/work/:/home/jovyan/work -p 80:8888 gturtu21/bdp2_midterm
+	docker run -v /home/ubuntu/review/bdp2_recap_exercise/work/:/home/jovyan/work -p 80:8888 gturtu21/bdp2_midterm
+
+-USE THIS COMMAND TO RUN THE APPLICATION STACK (inside ~/review/bdp2_recap_exercise/)
+
+	docker-compose up -d
+
+
